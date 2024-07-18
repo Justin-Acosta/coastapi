@@ -1,0 +1,18 @@
+[
+    {
+        "model": "coastapi.location",
+        "pk": 1,
+        "fields": {
+            "name": "shop",
+            "image": "location/shop.gif"
+        }
+    },
+    {
+        "model": "coastapi.location",
+        "pk": 2,
+        "fields": {
+            "name": "lighthouse",
+            "image": "location/lighthouse.gif"
+        }
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "model": "coastapi.player",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "nickname": "farter"
+        }
+    },
+    {
+        "model": "coastapi.player",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "nickname": "tester"
+        }
+    }
+]
+    

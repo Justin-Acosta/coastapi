@@ -1,0 +1,30 @@
+[
+    {
+        "model": "coastapi.fishtype",
+        "pk": 1,
+        "fields": {
+            "name": "red"
+        }
+    },
+    {
+        "model": "coastapi.fishtype",
+        "pk": 2,
+        "fields": {
+            "name": "blue"
+        }
+    },
+    {
+        "model": "coastapi.fishtype",
+        "pk": 3,
+        "fields": {
+            "name": "green"
+        }
+    },
+    {
+        "model": "coastapi.fishtype",
+        "pk": 4,
+        "fields": {
+            "name": "yellow"
+        }
+    }
+]

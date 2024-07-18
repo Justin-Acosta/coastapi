@@ -1,0 +1,50 @@
+[
+    {
+        "model": "coastapi.fish",
+        "pk": 1,
+        "fields": {
+            "fish_type": 1,
+            "name": "red fish",
+            "slots": 1,
+            "size": 1.00,
+            "price": 1.00,
+            "image": "fish/red.jpg"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 2,
+        "fields": {
+            "fish_type": 2,
+            "name": "blue fish",
+            "slots": 2,
+            "size": 2.00,
+            "price": 2.00,
+            "image": "fish/blue.jpg"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 3,
+        "fields": {
+            "fish_type": 3,
+            "name": "green fish",
+            "slots": 3,
+            "size": 3.00,
+            "price": 3.00,
+            "image": "fish/green.jpg"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 4,
+        "fields": {
+            "fish_type": 4,
+            "name": "yellow fish",
+            "slots": 4,
+            "size": 4.00,
+            "price": 4.00,
+            "image": "fish/yellow.jpg"
+        }
+    }
+]
