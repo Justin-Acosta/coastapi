@@ -1,5 +1,6 @@
 from django.db import models
-from coastapi.models import Location,Fish
+from .location import Location
+from .fish import Fish
 
 class Population(models.Model):
     id = models.AutoField(primary_key=True)

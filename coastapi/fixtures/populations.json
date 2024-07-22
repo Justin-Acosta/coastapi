@@ -1,0 +1,39 @@
+[
+    {
+        "model": "coastapi.population",
+        "pk": 1,
+        "fields": {
+            "location": 1,
+            "fish": 1,
+            "quantity": 5
+
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 2,
+        "fields": {
+            "location": 1,
+            "fish": 2,
+            "quantity": 5
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 3,
+        "fields": {
+            "location": 1,
+            "fish": 3,
+            "quantity": 5
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 4,
+        "fields": {
+            "location": 1,
+            "fish": 4,
+            "quantity": 5
+        }
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "model": "coastapi.shopinventory",
+        "pk": 1,
+        "fields": {
+            "player": 1,
+            "bait": 1
+        }
+    },
+    {
+        "model": "coastapi.shopinventory",
+        "pk": 2,
+        "fields": {
+            "player": 1,
+            "bait": 2
+        }
+    },
+    {
+        "model": "coastapi.shopinventory",
+        "pk": 3,
+        "fields": {
+            "player": 1,
+            "bait": 3
+        }
+    },
+    {
+        "model": "coastapi.shopinventory",
+        "pk": 4,
+        "fields": {
+            "player": 1,
+            "bait": 4
+        }
+    }
+]
