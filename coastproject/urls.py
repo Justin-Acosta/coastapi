@@ -7,8 +7,13 @@ from coastapi.models import *
 from coastapi.views import *
 
 router = routers.DefaultRouter(trailing_slash=False)
-router.register(r'players', Players, 'player')
-router.register(r'shop', Shop, 'shop')
+router.register(r'players', PlayersViewSet, 'player')
+router.register(r'shop', ShopViewSet, 'shop')
+router.register(r'tackle_box',TackleBoxViewSet,'tack_lebox')
+router.register(r'player_inventory',PlayerInventoryViewSet,'player_inventory')
+router.register(r'locations',LocationsViewSet,'location')
+router.register(r'shop_inventory',ShopInventoryViewSet,'shop_inventory')
+router.register(r'population',PopulationViewSet,'population')
 
 urlpatterns = [
     path('', include(router.urls)),

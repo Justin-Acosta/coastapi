@@ -4,10 +4,9 @@
         "pk": 1,
         "fields": {
             "name": "red bait",
-            "slots": 1,
             "price": 2.00,
             "image": "bait/red.png",
-            "red_modifier": 0.25,
+            "red_modifier": 3.00,
             "blue_modifier": 0.00,
             "green_modifier": 0.00,
             "yellow_modifier": 0.00
@@ -18,11 +17,10 @@
         "pk": 2,
         "fields": {
             "name": "blue bait",
-            "slots": 1,
             "price": 2.00,
             "image": "bait/blue.png",
             "red_modifier": 0.00,
-            "blue_modifier": 0.25,
+            "blue_modifier": 3.00,
             "green_modifier": 0.00,
             "yellow_modifier": 0.00
         }
@@ -32,12 +30,11 @@
         "pk": 3,
         "fields": {
             "name": "green bait",
-            "slots": 1,
             "price": 2.00,
             "image": "bait/green.png",
             "red_modifier": 0.0,
             "blue_modifier": 0.00,
-            "green_modifier": 0.25,
+            "green_modifier": 3.00,
             "yellow_modifier": 0.00
         }
     },
@@ -46,13 +43,12 @@
         "pk": 4,
         "fields": {
             "name": "yellow bait",
-            "slots": 1,
             "price": 2.00,
             "image": "bait/yellow.png",
             "red_modifier": 0.00,
             "blue_modifier": 0.00,
             "green_modifier": 0.00,
-            "yellow_modifier": 0.25
+            "yellow_modifier": 3.00
         }
     }
 ]

@@ -1,4 +1,10 @@
 from .register import login_user,register_user
-from .player import Players, PlayerSerializer
-from .shop import Shop
+from .player import *
+from .shop import *
 from .bait import *
+from .fish import *
+from .tacklebox import *
+from .playerinventory import *
+from .location import *
+from .shopinventory import *
+from .population import *
