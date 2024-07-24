@@ -14,9 +14,9 @@ class PlayerSerializer(serializers.ModelSerializer):
 
 class PlayersViewSet(ViewSet):
 
-    def retrieve(self,request,pk=None):
+    def list(self,request):
 
-        player = Player.objects.get(pk=pk, user=request.auth.user)
+        player = Player.objects.get(user=request.auth.user)
         json_player = PlayerSerializer(player,many=False,context={'request':request})
 
         return Response(json_player.data, status=status.HTTP_200_OK)
