@@ -8,3 +8,4 @@ from .playerinventory import *
 from .location import *
 from .shopinventory import *
 from .population import *
+from .fishtype import *

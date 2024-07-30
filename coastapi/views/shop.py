@@ -60,8 +60,8 @@ class ShopViewSet(ViewSet):
 
             if player_inventory.quantity == 0:
                 player_inventory.delete()
-
-            player_inventory.save()
+            else:
+                player_inventory.save()
 
             player.wallet += fish.price
             player.slots += fish.slots

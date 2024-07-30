@@ -25,7 +25,6 @@ class PlayersViewSet(ViewSet):
 
         player = Player.objects.get(pk=pk, user=request.auth.user)
         player.nickname = request.data["nickname"]
-        player.location = Location.objects.get(pk=request.data["location"])
         player.wallet = request.data["wallet"]
         if request.data["bait"] is not None:
             player.bait = Bait.objects.get(pk=request.data["bait"])

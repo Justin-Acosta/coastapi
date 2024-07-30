@@ -14,6 +14,7 @@ router.register(r'player_inventory',PlayerInventoryViewSet,'player_inventory')
 router.register(r'locations',LocationsViewSet,'location')
 router.register(r'shop_inventory',ShopInventoryViewSet,'shop_inventory')
 router.register(r'population',PopulationViewSet,'population')
+router.register(r'fish_types',FishTypeViewSet,'fish_type')
 
 urlpatterns = [
     path('', include(router.urls)),
