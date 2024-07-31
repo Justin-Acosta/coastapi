@@ -26,10 +26,10 @@ class LocationsViewSet(ViewSet):
 
         return Response(json_locations.data, status=status.HTTP_200_OK)
     
-    @action(methods=['get'], detail=False)
+    @action(methods=['post'], detail=False)
     def catch_fish(self, request):
 
-        if request.method == 'GET':
+        if request.method == 'POST':
 
             player = Player.objects.get(user=request.auth.user)
             location = Location.objects.get(pk=request.data["location"])
@@ -88,24 +88,24 @@ class LocationsViewSet(ViewSet):
             player = Player.objects.get(user=request.auth.user)
             fish = Fish.objects.get(pk=request.data["fish"])
 
-            if player.slots - fish.slots >= 0:
-                player_inventory, created = PlayerInventory.objects.get_or_create(
-                    player=player,
-                    fish=fish,
-                    defaults={'quantity': 1}
-                )
 
-                if not created:
-                    player_inventory.quantity += 1
-                    player_inventory.save()
+            player_inventory, created = PlayerInventory.objects.get_or_create(
+                player=player,
+                fish=fish,
+                defaults={'quantity': 1}
+            )
 
-                player.slots -= fish.slots
+            if not created:
+                player_inventory.quantity += 1
+                player_inventory.save()
 
-                player.save()
+            player.slots -= fish.slots
 
-                player_inventory = PlayerInventory.objects.filter(player=player)
-                json_player_inventory = PlayerInventorySerializer(player_inventory,many=True)
+            player.save()
 
-                return Response(json_player_inventory.data, status=status.HTTP_201_CREATED)
-            
-            return Response({'sufficient_space':False}, status=status.HTTP_400_BAD_REQUEST)
+            player_inventory = PlayerInventory.objects.filter(player=player)
+            json_player_inventory = PlayerInventorySerializer(player_inventory,many=True)
+
+            return Response(json_player_inventory.data, status=status.HTTP_201_CREATED)
+        
+        return Response({'sufficient_space':False}, status=status.HTTP_400_BAD_REQUEST)

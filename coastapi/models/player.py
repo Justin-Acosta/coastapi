@@ -12,7 +12,7 @@ class Player(models.Model):
     progression = models.IntegerField(default=1)
     nickname = models.CharField(max_length=255)
     bait = models.ForeignKey(Bait,on_delete=models.DO_NOTHING, null=True)
-    wallet = models.DecimalField(max_digits=10, decimal_places=2, default=10.00)
+    wallet = models.DecimalField(max_digits=10, decimal_places=2, default=40.00)
     image = models.ImageField(upload_to='player/',width_field=None, max_length=None, default='player/default.jpg')
 
     @property
