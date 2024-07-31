@@ -17,7 +17,7 @@ class ShopInventoryViewSet(ViewSet):
     def list(self,request,pk=None):
 
         player = Player.objects.get(user=request.auth.user)
-        shop_inventory = ShopInventory.objects.filter(player=player)
+        shop_inventory = ShopInventory.objects.all()
 
         json_shop_inventory = ShopInventorySerializer(shop_inventory,many=True)
 

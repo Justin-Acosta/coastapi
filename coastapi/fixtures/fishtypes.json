@@ -3,28 +3,28 @@
         "model": "coastapi.fishtype",
         "pk": 1,
         "fields": {
-            "name": "red"
+            "name": "aggressive"
         }
     },
     {
         "model": "coastapi.fishtype",
         "pk": 2,
         "fields": {
-            "name": "blue"
+            "name": "curious"
         }
     },
     {
         "model": "coastapi.fishtype",
         "pk": 3,
         "fields": {
-            "name": "green"
+            "name": "passive"
         }
     },
     {
         "model": "coastapi.fishtype",
         "pk": 4,
         "fields": {
-            "name": "yellow"
+            "name": "skittish"
         }
     }
 ]

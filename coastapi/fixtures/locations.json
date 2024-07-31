@@ -6,5 +6,21 @@
             "name": "lighthouse",
             "image": "location/lighthouse.gif"
         }
+    },
+    {
+        "model": "coastapi.location",
+        "pk": 2,
+        "fields": {
+            "name": "mountains",
+            "image": "location/mountains.gif"
+        }
+    },
+    {
+        "model": "coastapi.location",
+        "pk": 3,
+        "fields": {
+            "name": "pond",
+            "image": "location/pond.gif"
+        }
     }
 ]

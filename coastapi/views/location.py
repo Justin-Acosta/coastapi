@@ -53,24 +53,24 @@ class LocationsViewSet(ViewSet):
 
             for fish_species in population:
 
-                if fish_species.fish.fish_type.name == "red":
-                    fish_species.quantity *= bait.red_modifier + 1
+                if fish_species.fish.fish_type.name == "aggressive":
+                    fish_species.quantity *= bait.aggressive_modifier + 1
                     fish_species.quantity = math.ceil(fish_species.quantity)
                     random_weights.append(fish_species.quantity)
 
-                if fish_species.fish.fish_type.name == "blue":
-                    fish_species.quantity *= bait.blue_modifier + 1
+                if fish_species.fish.fish_type.name == "curious":
+                    fish_species.quantity *= bait.curious_modifier + 1
                     fish_species.quantity = math.ceil(fish_species.quantity)
                     random_weights.append(fish_species.quantity)
 
 
-                if fish_species.fish.fish_type.name == "green":
-                    fish_species.quantity *= bait.green_modifier + 1
+                if fish_species.fish.fish_type.name == "passive":
+                    fish_species.quantity *= bait.passive_modifier + 1
                     fish_species.quantity = math.ceil(fish_species.quantity)
                     random_weights.append(fish_species.quantity)
 
-                if fish_species.fish.fish_type.name == "yellow":
-                    fish_species.quantity *= bait.yellow_modifier + 1
+                if fish_species.fish.fish_type.name == "skittish":
+                    fish_species.quantity *= bait.skittish_modifier + 1
                     fish_species.quantity = math.ceil(fish_species.quantity)
                     random_weights.append(fish_species.quantity)
 

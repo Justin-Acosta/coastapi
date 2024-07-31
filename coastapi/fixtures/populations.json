@@ -5,8 +5,7 @@
         "fields": {
             "location": 1,
             "fish": 1,
-            "quantity": 5
-
+            "quantity": 12
         }
     },
     {
@@ -15,7 +14,7 @@
         "fields": {
             "location": 1,
             "fish": 2,
-            "quantity": 5
+            "quantity": 7
         }
     },
     {
@@ -24,7 +23,7 @@
         "fields": {
             "location": 1,
             "fish": 3,
-            "quantity": 5
+            "quantity": 15
         }
     },
     {
@@ -33,7 +32,493 @@
         "fields": {
             "location": 1,
             "fish": 4,
+            "quantity": 8
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 5,
+        "fields": {
+            "location": 1,
+            "fish": 5,
+            "quantity": 11
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 6,
+        "fields": {
+            "location": 1,
+            "fish": 6,
+            "quantity": 10
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 7,
+        "fields": {
+            "location": 1,
+            "fish": 7,
+            "quantity": 9
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 8,
+        "fields": {
+            "location": 1,
+            "fish": 8,
             "quantity": 5
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 9,
+        "fields": {
+            "location": 1,
+            "fish": 9,
+            "quantity": 6
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 10,
+        "fields": {
+            "location": 1,
+            "fish": 10,
+            "quantity": 13
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 11,
+        "fields": {
+            "location": 1,
+            "fish": 11,
+            "quantity": 14
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 14,
+        "fields": {
+            "location": 1,
+            "fish": 14,
+            "quantity": 12
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 15,
+        "fields": {
+            "location": 1,
+            "fish": 15,
+            "quantity": 8
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 16,
+        "fields": {
+            "location": 1,
+            "fish": 16,
+            "quantity": 11
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 17,
+        "fields": {
+            "location": 1,
+            "fish": 17,
+            "quantity": 6
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 18,
+        "fields": {
+            "location": 1,
+            "fish": 18,
+            "quantity": 13
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 19,
+        "fields": {
+            "location": 1,
+            "fish": 19,
+            "quantity": 9
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 20,
+        "fields": {
+            "location": 1,
+            "fish": 20,
+            "quantity": 15
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 21,
+        "fields": {
+            "location": 2,
+            "fish": 21,
+            "quantity": 8
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 22,
+        "fields": {
+            "location": 2,
+            "fish": 22,
+            "quantity": 10
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 23,
+        "fields": {
+            "location": 2,
+            "fish": 23,
+            "quantity": 5
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 24,
+        "fields": {
+            "location": 2,
+            "fish": 24,
+            "quantity": 12
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 25,
+        "fields": {
+            "location": 2,
+            "fish": 25,
+            "quantity": 9
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 26,
+        "fields": {
+            "location": 2,
+            "fish": 26,
+            "quantity": 7
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 27,
+        "fields": {
+            "location": 2,
+            "fish": 27,
+            "quantity": 11
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 28,
+        "fields": {
+            "location": 2,
+            "fish": 28,
+            "quantity": 14
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 29,
+        "fields": {
+            "location": 2,
+            "fish": 29,
+            "quantity": 13
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 30,
+        "fields": {
+            "location": 2,
+            "fish": 30,
+            "quantity": 6
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 31,
+        "fields": {
+            "location": 2,
+            "fish": 31,
+            "quantity": 12
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 32,
+        "fields": {
+            "location": 2,
+            "fish": 32,
+            "quantity": 8
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 33,
+        "fields": {
+            "location": 2,
+            "fish": 33,
+            "quantity": 15
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 34,
+        "fields": {
+            "location": 2,
+            "fish": 34,
+            "quantity": 10
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 35,
+        "fields": {
+            "location": 2,
+            "fish": 35,
+            "quantity": 11
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 36,
+        "fields": {
+            "location": 2,
+            "fish": 36,
+            "quantity": 5
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 37,
+        "fields": {
+            "location": 2,
+            "fish": 37,
+            "quantity": 9
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 38,
+        "fields": {
+            "location": 2,
+            "fish": 38,
+            "quantity": 13
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 39,
+        "fields": {
+            "location": 2,
+            "fish": 39,
+            "quantity": 7
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 40,
+        "fields": {
+            "location": 2,
+            "fish": 40,
+            "quantity": 14
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 41,
+        "fields": {
+            "location": 3,
+            "fish": 41,
+            "quantity": 11
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 42,
+        "fields": {
+            "location": 3,
+            "fish": 42,
+            "quantity": 6
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 43,
+        "fields": {
+            "location": 3,
+            "fish": 43,
+            "quantity": 8
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 44,
+        "fields": {
+            "location": 3,
+            "fish": 44,
+            "quantity": 12
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 45,
+        "fields": {
+            "location": 3,
+            "fish": 45,
+            "quantity": 10
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 46,
+        "fields": {
+            "location": 3,
+            "fish": 46,
+            "quantity": 9
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 47,
+        "fields": {
+            "location": 3,
+            "fish": 47,
+            "quantity": 15
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 48,
+        "fields": {
+            "location": 3,
+            "fish": 48,
+            "quantity": 7
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 49,
+        "fields": {
+            "location": 3,
+            "fish": 49,
+            "quantity": 13
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 50,
+        "fields": {
+            "location": 3,
+            "fish": 50,
+            "quantity": 5
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 51,
+        "fields": {
+            "location": 3,
+            "fish": 51,
+            "quantity": 8
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 52,
+        "fields": {
+            "location": 3,
+            "fish": 52,
+            "quantity": 12
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 53,
+        "fields": {
+            "location": 3,
+            "fish": 53,
+            "quantity": 6
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 54,
+        "fields": {
+            "location": 3,
+            "fish": 54,
+            "quantity": 10
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 55,
+        "fields": {
+            "location": 3,
+            "fish": 55,
+            "quantity": 14
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 56,
+        "fields": {
+            "location": 3,
+            "fish": 56,
+            "quantity": 8
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 57,
+        "fields": {
+            "location": 3,
+            "fish": 57,
+            "quantity": 13
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 58,
+        "fields": {
+            "location": 3,
+            "fish": 58,
+            "quantity": 11
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 59,
+        "fields": {
+            "location": 3,
+            "fish": 59,
+            "quantity": 7
+        }
+    },
+    {
+        "model": "coastapi.population",
+        "pk": 60,
+        "fields": {
+            "location": 3,
+            "fish": 60,
+            "quantity": 9
         }
     }
 ]

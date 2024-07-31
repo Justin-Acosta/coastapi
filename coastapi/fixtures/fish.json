@@ -4,47 +4,695 @@
         "pk": 1,
         "fields": {
             "fish_type": 1,
-            "name": "red fish",
-            "slots": 1,
-            "size": 1.00,
-            "price": 1.00,
-            "image": "fish/red.png"
+            "name": "Surgeonfish",
+            "slots": 0,
+            "size": 12.00,
+            "price": 2.00,
+            "image": "fish/surgeonfish.png"
         }
     },
     {
         "model": "coastapi.fish",
         "pk": 2,
         "fields": {
-            "fish_type": 2,
-            "name": "blue fish",
-            "slots": 2,
-            "size": 2.00,
-            "price": 2.00,
-            "image": "fish/blue.png"
+            "fish_type": 1,
+            "name": "Barracuda",
+            "slots": 0,
+            "size": 65.00,
+            "price": 3.50,
+            "image": "fish/barracuda.png"
         }
     },
     {
         "model": "coastapi.fish",
         "pk": 3,
         "fields": {
-            "fish_type": 3,
-            "name": "green fish",
-            "slots": 3,
-            "size": 3.00,
-            "price": 3.00,
-            "image": "fish/green.png"
+            "fish_type": 1,
+            "name": "Grouper",
+            "slots": 0,
+            "size": 48.00,
+            "price": 1.50,
+            "image": "fish/grouper.png"
         }
     },
     {
         "model": "coastapi.fish",
         "pk": 4,
         "fields": {
-            "fish_type": 4,
-            "name": "yellow fish",
-            "slots": 4,
+            "fish_type": 1,
+            "name": "Snapper",
+            "slots": 0,
+            "size": 24.00,
+            "price": 3.00,
+            "image": "fish/snapper.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 5,
+        "fields": {
+            "fish_type": 1,
+            "name": "Triggerfish",
+            "slots": 0,
+            "size": 30.00,
+            "price": 2.25,
+            "image": "fish/triggerfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 6,
+        "fields": {
+            "fish_type": 2,
+            "name": "Damselfish",
+            "slots": 0,
             "size": 4.00,
+            "price": 2.50,
+            "image": "fish/damselfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 7,
+        "fields": {
+            "fish_type": 2,
+            "name": "Parrotfish",
+            "slots": 0,
+            "size": 20.00,
+            "price": 2.75,
+            "image": "fish/parrotfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 8,
+        "fields": {
+            "fish_type": 2,
+            "name": "Wrasse",
+            "slots": 0,
+            "size": 15.00,
             "price": 4.00,
-            "image": "fish/yellow.png"
+            "image": "fish/wrasse.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 9,
+        "fields": {
+            "fish_type": 2,
+            "name": "Butterflyfish",
+            "slots": 0,
+            "size": 9.00,
+            "price": 3.75,
+            "image": "fish/butterflyfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 10,
+        "fields": {
+            "fish_type": 2,
+            "name": "Lionfish",
+            "slots": 0,
+            "size": 15.00,
+            "price": 1.75,
+            "image": "fish/lionfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 11,
+        "fields": {
+            "fish_type": 3,
+            "name": "Cleaner Wrasse",
+            "slots": 0,
+            "size": 5.00,
+            "price": 1.50,
+            "image": "fish/cleaner_wrasse.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 14,
+        "fields": {
+            "fish_type": 3,
+            "name": "Filefish",
+            "slots": 0,
+            "size": 10.00,
+            "price": 2.00,
+            "image": "fish/filefish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 15,
+        "fields": {
+            "fish_type": 3,
+            "name": "Clownfish",
+            "slots": 0,
+            "size": 4.30,
+            "price": 3.00,
+            "image": "fish/clownfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 16,
+        "fields": {
+            "fish_type": 4,
+            "name": "Chromis",
+            "slots": 0,
+            "size": 6.00,
+            "price": 2.25,
+            "image": "fish/chromis.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 17,
+        "fields": {
+            "fish_type": 4,
+            "name": "Blennies",
+            "slots": 0,
+            "size": 5.00,
+            "price": 3.75,
+            "image": "fish/blennies.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 18,
+        "fields": {
+            "fish_type": 4,
+            "name": "Gobies",
+            "slots": 0,
+            "size": 3.00,
+            "price": 2.75,
+            "image": "fish/gobies.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 19,
+        "fields": {
+            "fish_type": 4,
+            "name": "Cardinalfish",
+            "slots": 0,
+            "size": 3.00,
+            "price": 3.50,
+            "image": "fish/cardinalfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 20,
+        "fields": {
+            "fish_type": 4,
+            "name": "Anthias",
+            "slots": 0,
+            "size": 5.00,
+            "price": 1.50,
+            "image": "fish/anthias.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 21,
+        "fields": {
+            "fish_type": 1,
+            "name": "Piranha",
+            "slots": 0,
+            "size": 12.00,
+            "price": 3.00,
+            "image": "fish/piranha.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 22,
+        "fields": {
+            "fish_type": 1,
+            "name": "Catfish",
+            "slots": 0,
+            "size": 18.00,
+            "price": 2.50,
+            "image": "fish/catfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 23,
+        "fields": {
+            "fish_type": 1,
+            "name": "Tigerfish",
+            "slots": 0,
+            "size": 24.00,
+            "price": 4.00,
+            "image": "fish/tigerfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 24,
+        "fields": {
+            "fish_type": 1,
+            "name": "Electric Eel",
+            "slots": 0,
+            "size": 80.00,
+            "price": 2.00,
+            "image": "fish/electric_eel.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 25,
+        "fields": {
+            "fish_type": 1,
+            "name": "Giant Snakehead",
+            "slots": 0,
+            "size": 40.00,
+            "price": 3.75,
+            "image": "fish/giant_snakehead.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 26,
+        "fields": {
+            "fish_type": 2,
+            "name": "Rainbowfish",
+            "slots": 0,
+            "size": 6.00,
+            "price": 3.50,
+            "image": "fish/rainbowfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 27,
+        "fields": {
+            "fish_type": 2,
+            "name": "Corydoras Catfish",
+            "slots": 0,
+            "size": 2.00,
+            "price": 2.25,
+            "image": "fish/corydoras_catfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 28,
+        "fields": {
+            "fish_type": 2,
+            "name": "Freshwater Angelfish",
+            "slots": 0,
+            "size": 6.00,
+            "price": 1.75,
+            "image": "fish/freshwater_angelfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 29,
+        "fields": {
+            "fish_type": 2,
+            "name": "Otocinclus Catfish",
+            "slots": 0,
+            "size": 2.00,
+            "price": 3.00,
+            "image": "fish/otocinclus_catfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 30,
+        "fields": {
+            "fish_type": 2,
+            "name": "Killifish",
+            "slots": 0,
+            "size": 3.00,
+            "price": 4.25,
+            "image": "fish/killifish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 31,
+        "fields": {
+            "fish_type": 3,
+            "name": "Tetra",
+            "slots": 0,
+            "size": 1.50,
+            "price": 2.00,
+            "image": "fish/tetra.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 32,
+        "fields": {
+            "fish_type": 3,
+            "name": "Loach",
+            "slots": 0,
+            "size": 4.00,
+            "price": 3.50,
+            "image": "fish/loach.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 33,
+        "fields": {
+            "fish_type": 3,
+            "name": "Harlequin Rasbora",
+            "slots": 0,
+            "size": 2.00,
+            "price": 1.50,
+            "image": "fish/harlequin_rasbora.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 34,
+        "fields": {
+            "fish_type": 3,
+            "name": "Plecostomus",
+            "slots": 0,
+            "size": 18.00,
+            "price": 2.75,
+            "image": "fish/plecostomus.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 35,
+        "fields": {
+            "fish_type": 3,
+            "name": "Gourami",
+            "slots": 0,
+            "size": 6.00,
+            "price": 3.00,
+            "image": "fish/gourami.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 36,
+        "fields": {
+            "fish_type": 4,
+            "name": "Danio",
+            "slots": 0,
+            "size": 2.00,
+            "price": 4.00,
+            "image": "fish/danio.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 37,
+        "fields": {
+            "fish_type": 4,
+            "name": "Glass Catfish",
+            "slots": 0,
+            "size": 4.00,
+            "price": 2.50,
+            "image": "fish/glass_catfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 38,
+        "fields": {
+            "fish_type": 4,
+            "name": "Barbs",
+            "slots": 0,
+            "size": 4.00,
+            "price": 3.50,
+            "image": "fish/barbs.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 39,
+        "fields": {
+            "fish_type": 4,
+            "name": "Pencilfish",
+            "slots": 0,
+            "size": 2.00,
+            "price": 3.00,
+            "image": "fish/pencilfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 40,
+        "fields": {
+            "fish_type": 4,
+            "name": "Shrimp",
+            "slots": 0,
+            "size": 2.00,
+            "price": 4.25,
+            "image": "fish/shrimp.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 41,
+        "fields": {
+            "fish_type": 1,
+            "name": "Koi",
+            "slots": 0,
+            "size": 36.00,
+            "price": 2.25,
+            "image": "fish/koi.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 42,
+        "fields": {
+            "fish_type": 1,
+            "name": "Bass",
+            "slots": 0,
+            "size": 18.00,
+            "price": 4.00,
+            "image": "fish/bass.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 43,
+        "fields": {
+            "fish_type": 1,
+            "name": "Catfish",
+            "slots": 0,
+            "size": 24.00,
+            "price": 3.00,
+            "image": "fish/catfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 44,
+        "fields": {
+            "fish_type": 1,
+            "name": "Pike",
+            "slots": 0,
+            "size": 40.00,
+            "price": 1.50,
+            "image": "fish/pike.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 45,
+        "fields": {
+            "fish_type": 1,
+            "name": "Bluegill",
+            "slots": 0,
+            "size": 10.00,
+            "price": 2.00,
+            "image": "fish/bluegill.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 46,
+        "fields": {
+            "fish_type": 2,
+            "name": "Goldfish",
+            "slots": 0,
+            "size": 12.00,
+            "price": 3.75,
+            "image": "fish/goldfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 47,
+        "fields": {
+            "fish_type": 2,
+            "name": "Koi",
+            "slots": 0,
+            "size": 36.00,
+            "price": 1.75,
+            "image": "fish/koi.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 48,
+        "fields": {
+            "fish_type": 2,
+            "name": "Shubunkin",
+            "slots": 0,
+            "size": 12.00,
+            "price": 3.00,
+            "image": "fish/shubunkin.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 49,
+        "fields": {
+            "fish_type": 2,
+            "name": "Mosquito Fish",
+            "slots": 0,
+            "size": 3.00,
+            "price": 3.50,
+            "image": "fish/mosquito_fish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 50,
+        "fields": {
+            "fish_type": 2,
+            "name": "Swordtail",
+            "slots": 0,
+            "size": 4.00,
+            "price": 4.25,
+            "image": "fish/swordtail.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 51,
+        "fields": {
+            "fish_type": 3,
+            "name": "Goldfish",
+            "slots": 0,
+            "size": 12.00,
+            "price": 3.00,
+            "image": "fish/goldfish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 52,
+        "fields": {
+            "fish_type": 3,
+            "name": "Shubunkin",
+            "slots": 0,
+            "size": 12.00,
+            "price": 3.00,
+            "image": "fish/shubunkin.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 53,
+        "fields": {
+            "fish_type": 3,
+            "name": "Swordtail",
+            "slots": 0,
+            "size": 4.00,
+            "price": 4.25,
+            "image": "fish/swordtail.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 54,
+        "fields": {
+            "fish_type": 3,
+            "name": "Guppy",
+            "slots": 0,
+            "size": 2.00,
+            "price": 2.50,
+            "image": "fish/guppy.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 55,
+        "fields": {
+            "fish_type": 3,
+            "name": "Platies",
+            "slots": 0,
+            "size": 3.00,
+            "price": 1.75,
+            "image": "fish/platies.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 56,
+        "fields": {
+            "fish_type": 4,
+            "name": "Guppy",
+            "slots": 0,
+            "size": 2.00,
+            "price": 3.00,
+            "image": "fish/guppy.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 57,
+        "fields": {
+            "fish_type": 4,
+            "name": "Mosquito Fish",
+            "slots": 0,
+            "size": 3.00,
+            "price": 4.25,
+            "image": "fish/mosquito_fish.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 58,
+        "fields": {
+            "fish_type": 4,
+            "name": "Platies",
+            "slots": 0,
+            "size": 3.00,
+            "price": 2.00,
+            "image": "fish/platies.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 59,
+        "fields": {
+            "fish_type": 4,
+            "name": "Rosy Red Minnow",
+            "slots": 0,
+            "size": 3.00,
+            "price": 3.50,
+            "image": "fish/rosy_red_minnow.png"
+        }
+    },
+    {
+        "model": "coastapi.fish",
+        "pk": 60,
+        "fields": {
+            "fish_type": 4,
+            "name": "White Cloud Mountain Minnow",
+            "slots": 0,
+            "size": 2.00,
+            "price": 3.00,
+            "image": "fish/white_cloud_mountain_minnow.png"
         }
     }
 ]
