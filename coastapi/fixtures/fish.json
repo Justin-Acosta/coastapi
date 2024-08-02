@@ -457,18 +457,6 @@
     },
     {
         "model": "coastapi.fish",
-        "pk": 41,
-        "fields": {
-            "fish_type": 1,
-            "name": "Koi",
-            "slots": 0,
-            "size": 36.00,
-            "price": 2.25,
-            "image": "fish/koi.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
         "pk": 42,
         "fields": {
             "fish_type": 1,
@@ -477,18 +465,6 @@
             "size": 18.00,
             "price": 4.00,
             "image": "fish/bass.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
-        "pk": 43,
-        "fields": {
-            "fish_type": 1,
-            "name": "Catfish",
-            "slots": 0,
-            "size": 24.00,
-            "price": 3.00,
-            "image": "fish/catfish.png"
         }
     },
     {
@@ -577,42 +553,6 @@
     },
     {
         "model": "coastapi.fish",
-        "pk": 51,
-        "fields": {
-            "fish_type": 3,
-            "name": "Goldfish",
-            "slots": 0,
-            "size": 12.00,
-            "price": 3.00,
-            "image": "fish/goldfish.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
-        "pk": 52,
-        "fields": {
-            "fish_type": 3,
-            "name": "Shubunkin",
-            "slots": 0,
-            "size": 12.00,
-            "price": 3.00,
-            "image": "fish/shubunkin.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
-        "pk": 53,
-        "fields": {
-            "fish_type": 3,
-            "name": "Swordtail",
-            "slots": 0,
-            "size": 4.00,
-            "price": 4.25,
-            "image": "fish/swordtail.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
         "pk": 54,
         "fields": {
             "fish_type": 3,
@@ -632,42 +572,6 @@
             "slots": 0,
             "size": 3.00,
             "price": 1.75,
-            "image": "fish/platies.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
-        "pk": 56,
-        "fields": {
-            "fish_type": 4,
-            "name": "Guppy",
-            "slots": 0,
-            "size": 2.00,
-            "price": 3.00,
-            "image": "fish/guppy.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
-        "pk": 57,
-        "fields": {
-            "fish_type": 4,
-            "name": "Mosquito Fish",
-            "slots": 0,
-            "size": 3.00,
-            "price": 4.25,
-            "image": "fish/mosquito_fish.png"
-        }
-    },
-    {
-        "model": "coastapi.fish",
-        "pk": 58,
-        "fields": {
-            "fish_type": 4,
-            "name": "Platies",
-            "slots": 0,
-            "size": 3.00,
-            "price": 2.00,
             "image": "fish/platies.png"
         }
     },
