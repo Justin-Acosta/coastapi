@@ -26,7 +26,7 @@
 This repo contains the api for the Coast project. Begin with the "Installation" section here, then continue with the client instructions here https://github.com/Justin-Acosta/coastclient
 
 ### Prerequisites
-- 
+- pipenv
 
 ### Installation
 1. Clone this repository from Github
