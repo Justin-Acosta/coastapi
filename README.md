@@ -11,12 +11,6 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -27,31 +21,19 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-Coast is a fishing app where the user can buy bait, travel to locations, catch unique fish and sell thier catch!
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-- JavaScript
-- React
-- Next.js
-- Python
-- Django
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 ## Getting Started
-Navigate to the api repository for this project and follow the instructions in the readme: https://github.com/Justin-Acosta/coast-api
+This repo contains the api for the Coast project. Begin with the "Installation" section here, then continue with the client instructions here https://github.com/Justin-Acosta/coastclient
 
 ### Prerequisites
-- Node.js 18.17 or later
-- Next.js
+- 
 
 ### Installation
 1. Clone this repository from Github
-2. Run ```npm run dev```
-3. Run navigate to ```localhost:3000``` in your browser
+2. Run pipenv shell to start the virtual environment
+3. Run ./seed_data.sh
+4. Start the debugger in your IDE
+5. Follow the installation instructions for the client here https://github.com/Justin-Acosta/coastclient
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
