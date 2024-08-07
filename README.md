@@ -26,14 +26,15 @@
 This repo contains the api for the Coast project. Begin with the "Installation" section here, then continue with the client instructions here https://github.com/Justin-Acosta/coastclient
 
 ### Prerequisites
+- python 3.10.12 (adjust the value of python_version in this project's Pipfile if needed)
 - pipenv
 
 ### Installation
 1. Clone this repository from Github
-2. Navigate to the coastapi directory and run ```pipenv install```
-3. Run ```pipenv shell``` to start the virtual environment
+3. Navigate to the coastapi directory and run ```pipenv shell``` to start the virtual environment
+2. Run ```pipenv install```
 4. Run ```./seed_data.sh```
-5. Start the debugger in your IDE
+5. Run ```python manage.py runserver```
 6. Follow the installation instructions for the client here https://github.com/Justin-Acosta/coastclient
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
