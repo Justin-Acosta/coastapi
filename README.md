@@ -30,10 +30,11 @@ This repo contains the api for the Coast project. Begin with the "Installation" 
 
 ### Installation
 1. Clone this repository from Github
-2. Run ```pipenv shell``` to start the virtual environment
-3. Run ```./seed_data.sh```
-4. Start the debugger in your IDE
-5. Follow the installation instructions for the client here https://github.com/Justin-Acosta/coastclient
+2. Navigate to the coastapi directory and run ```pipenv install```
+3. Run ```pipenv shell``` to start the virtual environment
+4. Run ```./seed_data.sh```
+5. Start the debugger in your IDE
+6. Follow the installation instructions for the client here https://github.com/Justin-Acosta/coastclient
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
