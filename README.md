@@ -26,7 +26,7 @@
 This repo contains the api for the Coast project. Begin with the "Installation" section here, then continue with the client instructions https://github.com/Justin-Acosta/coastclient
 
 ### Prerequisites
-- python 3.10.12 (adjust the value of python_version in this project's Pipfile if needed)
+- python 3.9 (adjust the value of python_version in this project's Pipfile if needed)
 - pipenv
 
 ### Installation
