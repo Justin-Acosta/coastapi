@@ -2,7 +2,7 @@
 <br />
 <div align="center">
 
-<h1 align="center">Coast</h1>
+<h1 align="center">Coast (API)</h1>
 <br/>
 </div>
 
