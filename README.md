@@ -23,7 +23,7 @@
 
 <!-- GETTING STARTED -->
 ## Getting Started
-This repo contains the api for the Coast project. Begin with the "Installation" section here, then continue with the client instructions here https://github.com/Justin-Acosta/coastclient
+This repo contains the api for the Coast project. Begin with the "Installation" section here, then continue with the client instructions https://github.com/Justin-Acosta/coastclient
 
 ### Prerequisites
 - python 3.10.12 (adjust the value of python_version in this project's Pipfile if needed)
