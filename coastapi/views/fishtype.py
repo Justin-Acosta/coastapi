@@ -14,7 +14,6 @@ class FishTypeViewSet(ViewSet):
 
     def list(self,request,pk=None):
 
-        player = Player.objects.get(user=request.auth.user)
         fish_types = FishType.objects.all()
 
         json_fish_types = FishTypeSerializer(fish_types,many=True)
