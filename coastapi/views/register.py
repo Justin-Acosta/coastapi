@@ -7,7 +7,6 @@ from rest_framework import status
 from rest_framework.authtoken.models import Token
 from coastapi.models import Player
 
-
 @csrf_exempt
 def login_user(request):
     # {
