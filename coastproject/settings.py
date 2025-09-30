@@ -133,7 +133,8 @@ MEDIA_URL = '/media/'
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
 DEBUG = os.getenv("DEBUG", "False")
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", '').split(",")
+
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
 DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False")
 
 ALLOWED_HOSTS = ['localhost','127.0.0.1']
